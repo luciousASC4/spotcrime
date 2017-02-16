@@ -64,7 +64,7 @@ type Result struct {
 // GetCrimes fetches crimes from Spotcrime API
 func (c *Client) GetCrimes(r *Request) (*Response, error) {
 	if r.Lat == 0 || r.Lon == 0 {
-		return nil, fmt.Errorf("must provide lat and lon")
+		return nil, fmt.Errorf("spotcrime.GetCrimes: must provide lat and lon")
 	}
 
 	if r.Radius == 0 {
