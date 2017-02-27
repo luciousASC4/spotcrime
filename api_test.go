@@ -7,6 +7,7 @@ const (
 	testLat      = 33.39657
 	testLon      = -112.03422
 	httpProxyURL = "97.77.104.22"
+	// httpProxyURL = ""
 )
 
 func TestAPIWithProxy(t *testing.T) {

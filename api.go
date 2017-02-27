@@ -74,7 +74,7 @@ func (c *Client) GetCrimes(r *Request) (*Response, error) {
 	sURL := fmt.Sprintf("%s?key=%s&lat=%f&lon=%f&radius=%f", baseURL, c.key, r.Lat, r.Lon, r.Radius)
 
 	if c.Debug {
-		log.Printf("sURL: %s", sURL)
+		log.Printf("spotcrime.GetCrimes.sURL: %s", sURL)
 	}
 
 	client := &http.Client{}

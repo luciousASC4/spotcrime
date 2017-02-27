@@ -1,4 +1,4 @@
-# SportCrime [![CircleCI](https://circleci.com/gh/orcaman/spotcrime.svg?style=svg)](https://circleci.com/gh/orcaman/spotcrime)
+# SportCrime [![CircleCI](https://circleci.com/gh/skyline-ai/spotcrime.svg?style=svg&circle-token=2db0cdc819376d2a18e6be3fb306633b78aa8da6)](https://circleci.com/gh/skyline-ai/spotcrime)
 
 The following is an unoffical go client for the SpotCrime API. SpotCrime is a website that provides stats about crime in geos.
 This unoffical software is not affiliated with spotcrime in any way. The API Spec may be found [here](https://www.programmableweb.com/api/spotcrime).
@@ -16,7 +16,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/orcaman/spotcrime"
+	"github.com/skyline-ai/spotcrime"
 )
 
 var (
